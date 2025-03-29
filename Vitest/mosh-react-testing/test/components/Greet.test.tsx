@@ -1,8 +1,7 @@
+/// <reference types="vitest/globals" />
+// Informs TypeScript that global test functions (describe, it, expect) are defined by Vitest
 import React from "react";
-import { it, expect, describe } from "vitest";
 import { render, screen } from "@testing-library/react";
-import "@testing-library/jest-dom/vitest"; // Add custom matchers like .toBeInTheDocument() and .toHaveTextContent()
-// ⚠️ Make sure to import the Vitest-specific version with '/vitest'
 
 import Greet from "../../src/components/Greet";
 
