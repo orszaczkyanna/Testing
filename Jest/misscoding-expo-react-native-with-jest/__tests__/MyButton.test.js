@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from "@testing-library/react-native";
-import MyButton from "./MyButton";
+import MyButton from "../components/MyButton";
 
 describe("MyButton", () => {
   it("should call onPress function when the button is pressed", () => {

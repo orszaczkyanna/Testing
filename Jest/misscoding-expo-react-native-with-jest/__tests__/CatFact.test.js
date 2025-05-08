@@ -1,5 +1,5 @@
 import { render, screen, waitFor } from "@testing-library/react-native";
-import CatFact from "./CatFact";
+import CatFact from "../components/CatFact";
 
 describe("CatFact", () => {
   // Store the original fetch to restore after mocking

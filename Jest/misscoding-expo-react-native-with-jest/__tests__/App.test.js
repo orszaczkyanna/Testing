@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react-native";
-import App from "./App.js";
+import App from "../App.js";
 
 describe("App", () => {
   // Smoke test using @testing-library/react-native

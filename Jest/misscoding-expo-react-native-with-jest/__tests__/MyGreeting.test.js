@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react-native";
-import MyGreeting from "./MyGreeting";
+import MyGreeting from "../components/MyGreeting";
 
 describe("MyGreeting", () => {
   it("should display Bonjour in French", () => {
